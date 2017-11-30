@@ -1,7 +1,11 @@
 html{
-  font-family: Arial
+  font-family: Arial;
 }
 
 body{
-  background-color: blue
+  background-color: pink;
+}
+
+p{
+  color: blue;
 }
