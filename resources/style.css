@@ -72,6 +72,7 @@ header li:hover{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  z-index: 15;
 }
 
 @media only screen and (max-width: 600px){
@@ -108,7 +109,16 @@ header li:hover{
 
 .secondary{
   height: 650px;
-  background-color: #ffd996;
+  background-color: #dd9922;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 5;
+}
+
+.secondary h2{
+  color: #FFDC9E;
 }
 
 @media only screen and (max-width: 600px){
@@ -117,11 +127,38 @@ header li:hover{
     height: auto;
   }
 
+  .secondary{
+    height: auto;
+  }
+
   .gallery{
     flex-direction: column;
   }
 
-  .imagecard{
-    max-width: 60%;
+  .imagecard {
+    max-width: 80%;
+    min-width: 60%;
   }
+
+  .musiccard{
+    max-width: 90%;
+    min-width: 70%;
+  }
+}
+
+.musiccard{
+  max-width: 40%;
+  max-height: 50%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background-color: rgba(255, 220, 158, 0.5);
+}
+
+.musiccard img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.musiccard p{
+  color: #4EAE9E;
 }
