@@ -108,7 +108,7 @@ header li:hover{
 }
 
 .secondary{
-  height: 650px;
+  height: auto;
   background-color: #dd9922;
   display: flex;
   flex-direction: column;
@@ -148,7 +148,7 @@ header li:hover{
 
 .musiccard{
   max-width: 45%;
-  max-height: 65%;
+  max-height: 45%;
   margin: 1rem auto;
   padding: 0.5rem;
   background-color: rgba(255, 220, 158, 0.5);
@@ -161,4 +161,8 @@ header li:hover{
 
 .musiccard p{
   color: #4EAE9E;
+}
+
+.musiccard iframe{
+  margin: 0.25rem;
 }
