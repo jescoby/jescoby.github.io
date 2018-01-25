@@ -66,13 +66,17 @@ header li:hover{
 
 .headline{
   margin-top: 5rem;
-  height: 650px;
+  height: auto;
   background-color: #309786;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   z-index: 15;
+}
+
+.headline h2{
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 600px){
@@ -86,6 +90,7 @@ header li:hover{
 .headline h2{
   color: #B0E8DF;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 .gallery{
