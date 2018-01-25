@@ -31,7 +31,7 @@ header li{
 
 header span{
   font-size: 1.5rem;
-  padding-left: 3rem;
+  margin-left: 3rem;
   font-weight: bold;
 }
 
@@ -41,6 +41,21 @@ header span:hover{
 
 header li:hover{
   color: #ffd996;
+}
+
+@media only screen and (max-width: 600px){
+  header{
+    flex-direction: column;
+    height: auto;
+  }
+
+  header span{
+    margin: 0.5rem auto;
+  }
+
+  header nav{
+    margin: 0.5rem auto;
+  }
 }
 
 .container{
@@ -56,6 +71,14 @@ header li:hover{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+
+  .headline{
+    margin-top: 7rem;
+  }
+
 }
 
 .headline h2{
