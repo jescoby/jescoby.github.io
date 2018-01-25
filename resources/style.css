@@ -12,6 +12,10 @@ p{
   color: #ffcc71;
 }
 
+a{
+  color: inherit;
+}
+
 header{
   display: flex;
   justify-content: space-between;
@@ -64,30 +68,31 @@ header li:hover{
   margin: 0 auto;
 }
 
-.headline{
+#headline{
   margin-top: 5rem;
   height: auto;
   background-color: #309786;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   z-index: 15;
 }
 
-.headline h2{
+#headline h2{
   margin-top: 1rem;
 }
 
 @media only screen and (max-width: 600px){
 
-  .headline{
+  #headline{
     margin-top: 7rem;
   }
 
 }
 
-.headline h2{
+#headline h2{
   color: #B0E8DF;
   font-weight: bold;
   margin-top: 1rem;
@@ -96,6 +101,7 @@ header li:hover{
 .gallery{
   display: flex;
   justify-content: space-between;
+  max-width: 90%;
 }
 
 .imagecard{
@@ -112,27 +118,28 @@ header li:hover{
   max-height: 100%;
 }
 
-.secondary{
+#secondary{
   height: auto;
   background-color: #dd9922;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   z-index: 5;
 }
 
-.secondary h2{
+#secondary h2{
   color: #FFDC9E;
 }
 
 @media only screen and (max-width: 600px){
 
-  .headline{
+  #headline{
     height: auto;
   }
 
-  .secondary{
+  #secondary{
     height: auto;
   }
 
